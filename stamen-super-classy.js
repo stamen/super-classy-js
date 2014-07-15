@@ -74,7 +74,7 @@
     //
     // Gets an element by selector. Uses JQuery if available.
     //
-    this.get function get(selector, root) {
+    this.get = function get(selector, root) {
       if ($) {
         return ((root) ? $(root).find(selector) : $(selector)).get();
       } else {
@@ -87,4 +87,4 @@
 
   STMN.StamenBase = StamenBase;
 
-}());
+}(window));
