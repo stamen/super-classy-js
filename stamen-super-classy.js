@@ -2,6 +2,8 @@
 
 (function(window, $){
 
+  window.STMN = window.STMN || {};
+
   //
   // Stamen Super Classy JS. This is not a framework!
   //
