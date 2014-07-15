@@ -85,4 +85,6 @@
     return this;
   }
 
+  STMN.StamenBase = StamenBase;
+
 }());
